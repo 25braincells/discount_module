@@ -1,0 +1,36 @@
+[
+    {
+      "category": "Coupon",
+      "type": "Fixed amount",
+      "amount": 40
+    },
+    {
+      "category": "Coupon",
+      "type": "Percentage discount",
+      "percentage": 10
+    },
+    {
+      "category": "On Top",
+      "type": "Percentage discount by item category",
+      "parameters": {
+        "category": "Clothing",
+        "Percentage": 15
+      }
+    },
+    {
+      "category": "On Top",
+      "type": "Discount by points",
+      "parameters": {
+        "Customer points": 68
+      }
+    },
+    {
+      "category": "Seasonal",
+      "type": "Special campaigns",
+      "parameters": {
+        "Every X THB": 300,
+        "Discount Y THB": 40
+      }
+    }
+  ]
+  
